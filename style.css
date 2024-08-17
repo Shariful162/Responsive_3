@@ -1,0 +1,405 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* ===================================start navBar======================================= */
+
+nav ul li a {
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 21.7px;
+  text-decoration: none;
+  color: var(--black);
+  margin-left: 50px;
+}
+nav ul li a:hover {
+  color: var(--primary) !important;
+}
+.button {
+  font-weight: 500px;
+  font-size: 18px;
+  line-height: 21.7px;
+  color: var(--white);
+  border: none;
+  border-radius: 10px;
+  background-color: var(--primary);
+  padding: 13px 24px;
+}
+
+/* ===================================end navBar======================================= */
+
+/* ===================================start header section======================================= */
+#banner {
+  background-color: #eeedde;
+  padding-top: 95px;
+  padding-bottom: 120px;
+}
+
+.banner_wrapper {
+}
+
+#banner .banner_textArea h1 {
+  max-width: 777px;
+  font-size: 56px;
+  font-weight: 600px;
+  line-height: 84px;
+  color: #203239;
+}
+
+#banner .banner_textArea p {
+  max-width: 544px;
+  font-size: 16px;
+  font-weight: 300px;
+  line-height: 30px;
+  color: #203239;
+}
+
+#banner .banner_textArea input {
+  padding-left: 56px;
+  max-width: 508px;
+  height: 70px;
+  border: none;
+  border-radius: 15px;
+}
+
+#banner .banner_textArea input::placeholder {
+  font-size: 16px;
+  font-weight: 300px;
+  line-height: 30px;
+  color: #203239;
+}
+
+#banner .banner_textArea .banner_inputbox {
+  position: relative;
+  display: inline-block;
+}
+
+.locationIcon {
+  max-width: 16.5px;
+  max-height: 20px;
+  position: absolute;
+  top: 24px;
+  left: 23px;
+}
+
+#banner .banner_textArea button {
+  width: 138px;
+  height: 70px;
+  border: none;
+  border-radius: 15px;
+}
+
+#banner .banner_textArea button::placeholder {
+  font-size: 16px;
+  font-weight: 300px;
+  line-height: 30px;
+  color: #203239;
+}
+
+/* ===================================end header section======================================= */
+
+/* ===================================start  section======================================= */
+#propertie {
+  margin-top: 100px;
+}
+
+#propertie h2 {
+  font-size: 36px;
+  font-weight: 600px;
+  line-height: 54px;
+  max-width: 533px;
+}
+
+#propertie .propertie_wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 62px;
+}
+
+#propertie .propertie_wrapper .item {
+  position: relative;
+  border-radius: 5px;
+  padding: 33px 20px;
+  margin-bottom: 102px;
+}
+
+#propertie .propertie_wrapper .item:hover {
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.75);
+}
+
+#propertie .propertie_wrapper .title {
+  display: flex;
+  justify-content: space-between;
+}
+
+#propertie .propertie_wrapper .title h3 {
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 24px;
+}
+
+#propertie .propertie_wrapper .title h4 {
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 24px;
+  color: #ff7527;
+}
+
+#propertie .propertie_wrapper .item p {
+  font-size: 16px;
+  font-weight: 300px;
+  line-height: 30px;
+  width: 235px;
+}
+
+#propertie .propertie_wrapper .item a {
+  text-decoration: none;
+  margin-right: 8px;
+  display: inline-block;
+  margin-top: 50px;
+  color: #203239;
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 24px;
+}
+
+#propertie .propertie_wrapper .item .lenth {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 30px;
+  background-color: #ff7527;
+  top: 27px;
+  left: 0;
+  border-radius: 6px;
+}
+
+/* ===================================end propertie section======================================= */
+/* ===================================start resident section======================================= */
+#resident {
+  background-color: #eeedde;
+}
+#resident h3 {
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 24px;
+  padding-top: 68px;
+  color: #ff7527;
+}
+#resident h2 {
+  font-size: 36px;
+  font-weight: 600px;
+  line-height: 54px;
+  max-width: 533px;
+  padding-bottom: 64px;
+}
+#resident .resident_wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#resident .resident_wrapper .resident_imgArea {
+  position: relative;
+  padding-bottom: 167px;
+}
+#resident .resident_wrapper .resident_imgArea img:last-child {
+  position: absolute;
+  top: 60px;
+  left: 107px;
+}
+#resident .resident_wrapper .resident_textArea h2 {
+  font-size: 36px;
+  font-weight: 600px;
+  line-height: 54px;
+  max-width: 507px;
+}
+#resident .resident_wrapper .resident_textArea p {
+  font-size: 16px;
+  font-weight: 300px;
+  line-height: 30px;
+  max-width: 570px;
+  margin-bottom: 48px;
+}
+#resident .resident_wrapper .resident_textArea a {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: 600px;
+  line-height: 24px;
+  color: #203239;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 45.7px;
+  padding-right: 41px;
+  text-decoration: none;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-right: 12px;
+}
+#resident .resident_wrapper .resident_textArea a:last-child {
+  margin-left: 48px;
+}
+#resident .resident_wrapper .resident_textArea a:hover {
+  background-color: #203239;
+  color: #ffffff;
+}
+.btnPhon {
+  margin-right: 12px;
+}
+/* ===================================end resident section======================================= */
+
+/* ===================================start kota section======================================= */
+#kota {
+}
+#kota h3 {
+  font-size: 16px;
+  font-weight: 500px;
+  line-height: 24px;
+  padding-top: 68px;
+  color: #ff7527;
+}
+#kota h2 {
+  font-size: 36px;
+  font-weight: 600px;
+  line-height: 54px;
+  max-width: 533px;
+  padding-bottom: 64px;
+}
+#kota .kota_wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+#kota .kota_wrapper h4 {
+  padding-top: 16px;
+  font-size: 24px;
+  font-weight: 500px;
+  line-height: 36px;
+}
+#kota .kota_wrapper p {
+  max-width: 356px;
+  font-size: 16px;
+  font-weight: 300px;
+  line-height: 30px;
+}
+/* ===================================end kota section======================================= */
+
+/* =================================Start Footer top======================================= */
+#footer_top {
+  background-color: #eeedde;
+}
+#footer_top .title {
+  padding-top: 48px;
+  font-size: 36px;
+  font-weight: 60px;
+  line-height: 54px;
+}
+#footer_top .footer_topWrapper {
+  display: flex;
+}
+#footer_top .footer-topLeft {
+  display: flex;
+  gap: 24px;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 50%;
+  max-height: 300px;
+}
+#footer_top .topLeft-item {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  max-width: 274px;
+  max-height: 167px;
+  display: flex;
+  justify-content: space-between;
+  gap: 23px;
+  padding: 20px 50px;
+}
+.topLeftIcon {
+  font-size: 34px;
+}
+#footer_top .topLeft-item button {
+  color: #ffffff;
+  background-color: #203239;
+  padding: 10px 17px;
+  font-size: 16px;
+  font-weight: 600px;
+  border-radius: 5px;
+  margin-left: -15px;
+}
+#footer_top .topRight-item {
+  background-color: #ffffff;
+  box-sizing: border-box;
+  max-width: 274px;
+  max-height: 167px;
+  display: flex;
+  gap: 23px;
+  padding: 20px 50px;
+}
+#footer_top .topRight-item button {
+  color: #ffffff;
+  background-color: #203239;
+  padding: 10px 17px;
+  font-size: 16px;
+  font-weight: 600px;
+  border-radius: 5px;
+  margin-left: -15px;
+}
+#footer_top .footer-topRight {
+  max-width: 50%;
+  max-height: 300px;
+  text-align: center;
+  margin-left: 257px;
+}
+#footer_top .footer-topRight h3 {
+  padding-top: 48px;
+  padding-bottom: 69px;
+  font-size: 36px;
+  font-weight: 60px;
+  line-height: 54px;
+}
+/* =================================EndFooter top======================================= */
+
+/* =================================Start Footer botom======================================= */
+#footer_botom {
+  background-color: #203239;
+  margin-bottom: 10px;
+}
+#footer_botom .footer_botomWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#footer_botom .footerIcon {
+  display: flex;
+  gap: 64px;
+  color: #eeedde;
+}
+#footer_botom .fa-brands {
+  color: #eeedde;
+}
+#footer_botom h2 {
+  padding: 31px 0px;
+  color: #eeedde;
+  font-style: italic;
+  font-size: 24px;
+  font-weight: 600px;
+  line-height: 26px;
+}
+#footer_botom span {
+  color: #eeedde;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 600px;
+  line-height: 42px;
+}
+/* =================================End Footer botom======================================= */

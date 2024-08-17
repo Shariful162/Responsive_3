@@ -1,0 +1,332 @@
+@media (min-width: 320px) and (max-width: 575px) {
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+  nav ul li a {
+    font-size: 13px;
+    line-height: 17.7px;
+    margin-left: 0;
+  }
+  #banner {
+    padding-top: 25px;
+    padding-bottom: 0px;
+  }
+  #banner .banner_textArea h1 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 36px;
+  }
+  #banner .banner_textArea p {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  #banner .banner_inputbox {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  #banner .banner_textArea button {
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+  #banner .banner_wrapper {
+    flex-direction: column;
+  }
+  #banner .banner_imgArea img {
+    margin-top: 10px;
+    width: 100%;
+  }
+  /* =====================property============= */
+  #propertie {
+    margin-top: 30px;
+  }
+
+  #propertie h2 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 36px;
+  }
+  #propertie .propertie_wrapper {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 42px;
+  }
+  #propertie .propertie_wrapper .item {
+    position: relative;
+    border-radius: 5px;
+    padding: 33px 20px;
+    margin-bottom: 20px;
+  }
+  /* ===============resident================== */
+  #resident .container h3 {
+    text-align: center;
+    padding-top: 10px;
+  }
+  #resident .container h2 {
+    text-align: center;
+    padding-bottom: 10px;
+  }
+  #resident .resident_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #resident .resident_wrapper .resident_imgArea {
+    order: 2;
+    padding-bottom: 60px;
+  }
+  #resident .resident_wrapper .resident_imgArea img:first-child {
+    width: 60%;
+  }
+  #resident .resident_wrapper .resident_imgArea img:last-child {
+    width: 60%;
+  }
+  #resident .resident_wrapper .resident_textArea {
+    order: 1;
+  }
+  #resident .resident_wrapper .resident_textArea p {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #resident .resident_wrapper .resident_textArea .textArea_btn {
+    text-align: center;
+  }
+  #resident .resident_wrapper .resident_textArea a:last-child {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  /* =====================Koata========================== */
+  #kota h3 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #kota h2 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #kota .kota_wrapper {
+    display: flex;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  #kota .kota_wrapper img {
+    width: 100%;
+  }
+  /* =======================footer======================== */
+  #footer_top .title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  #footer_top .footer_topWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #footer_top .footer-topRight {
+    margin-left: 0px;
+  }
+
+  #footer_top .footer-topLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
+  }
+  nav ul li a {
+    font-size: 13px;
+    line-height: 17.7px;
+    margin-left: 0;
+  }
+  #banner {
+    padding-top: 25px;
+    padding-bottom: 0px;
+  }
+  #banner .banner_textArea h1 {
+    font-size: 47px;
+    line-height: 59px;
+  }
+  #banner .banner_inputbox {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  #banner .banner_textArea button {
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+  }
+  #banner .banner_imgArea img {
+    margin-top: 10px;
+    width: 100%;
+  }
+  #resident .resident_wrapper .resident_textArea .textArea_btn {
+    margin-bottom: 20px;
+
+    row-gap: 10px;
+  }
+  #resident .resident_wrapper .resident_textArea a:last-child {
+    margin-left: 0;
+  }
+  #resident .resident_wrapper .resident_imgArea img:first-child {
+    width: 60%;
+  }
+  #resident .resident_wrapper .resident_imgArea img:last-child {
+    width: 60%;
+  }
+  /* =================footer========================= */
+
+  #footer_top .title {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  #footer_top .footer-topRight {
+    margin-left: 0px;
+  }
+  /* #footer_top .footer_topWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  /* #footer_top .footer-topLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  } */
+
+  /* #resident .resident_wrapper .resident_textArea h2 {
+    width: 100%;
+    margin: auto;
+  } */
+
+  /* #propertie h2 {
+    text-align: center;
+    font-size: 26px;
+    line-height: 36px;
+  } */
+  /* ===============resident================== */
+  /* #resident .container h3 {
+    text-align: center;
+    padding-top: 10px;
+  }
+  #resident .container h2 {
+    text-align: center;
+  }
+  #resident .resident_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #resident .resident_wrapper .resident_imgArea {
+    order: 2;
+    padding-bottom: 60px;
+  }
+  #resident .resident_wrapper .resident_imgArea img:first-child {
+    width: 100%;
+  }
+  #resident .resident_wrapper .resident_imgArea img:last-child {
+    width: 100%;
+  }
+  #resident .resident_wrapper .resident_textArea {
+    order: 1;
+  }
+  #resident .resident_wrapper .resident_textArea p {
+    text-align: center;
+  }
+  
+  #resident .resident_wrapper .resident_textArea a:last-child {
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  } */
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  #banner .banner_textArea p {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 10px;
+  }
+  #propertie h2 {
+  }
+  #banner .banner_imgArea img {
+    margin-top: 10px;
+    width: 100%;
+  }
+  #resident h2 {
+    width: 100%;
+    margin: auto;
+  }
+  #resident .resident_wrapper .resident_textArea p {
+    width: 100%;
+    margin: auto;
+  }
+  #resident .resident_wrapper .resident_imgArea img:first-child {
+    width: 80%;
+  }
+  #resident .resident_wrapper .resident_imgArea img:last-child {
+    width: 80%;
+  }
+  /* ===============Koata=============== */
+  #kota h3 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #kota h2 {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+  #kota .item img {
+    width: 100%;
+  }
+  /* ======================footer=============== */
+  #footer_top .footer-topRight {
+    margin-left: 0px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  #resident .resident_wrapper .resident_imgArea img:first-child {
+    width: 80%;
+  }
+  #resident .resident_wrapper .resident_imgArea img:last-child {
+    width: 80%;
+  }
+  #kota .item img {
+    width: 100%;
+  }
+  /* =========footer======================= */
+}
